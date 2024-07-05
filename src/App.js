@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello1 from './Hello'; 
+import { Hello2, Hello3, Hello4, Hello5 } from './Hello';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      hello 1
+       <Hello1/> <Hello4 name="ajay"/>
+      <Hello4 name="ajay"/>
+
+      <Hello5 name="Deepak" manager="Ravi" dept="Accts"/> */}
+    </div> 
   );
 }
 
